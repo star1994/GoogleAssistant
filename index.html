@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Suppablog - Minimal Blog Html Template</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body class="home blog">
+
+        <!-- Home Content -->
+        <div id="content" class="site-content">
+            <div style="margin-right: 800px ">
+                <div class="blog-holder center-relative">
+
+
+                    <article id="post-1" class="blog-item-holder featured-post">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
+                                <div class="cat-links">
+                                    <ul>
+                                        <li>
+                                            <a >kastar32</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="entry-date published">JUL 26, 2018</div>
+                                <h2 class="entry-title">
+                                    <a href="single.html">Giao tiếp bằng Google Assistant với một ứng dụng Android - IOS</a>
+                                </h2>
+                                <br>
+                                <div class="excerpt">
+                                    Gần đây, Google đã ra mắt chương trình dành cho nhà phát triển là GoogleAssistant. 
+                                    Bằng cách sử dụng GoogleAssistant, bạn có thể giao tiếp bằng giọng nói hoặc message với các Application của bạn 
+                                </div>
+                                
+                                <div class="excerpt">
+                                    Bắt đầu thực hiện nào, Đầu tiên truy cập vào trang của console Google để login  
+                                    <a href="https://developers.google.com/actions/" style="color: blue">  Google Assistant developer community program</a>. 
+                                    Sau đó ấn vào GO TO ACTIONS CONSOLE ở góc bên phải của web
+                                </div>
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/actionconsole.png">
+                                </div>
+                                <br> 
+                                 <div class="excerpt">
+                                    Bước tiếp theo, ấn vào <span style="color:red">add/import project</span> để tạo 1 project 
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/createproject.png">
+                                </div>
+                                <br>
+                                <div class="excerpt">
+                                    Sau khi tạo project , ấn vào <span style="color:red">skip</span> ở góc phải để vào giao diện quản lý google assistant 
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/skip.png">
+                                </div>
+                                <br> 
+                                <div class="excerpt">
+                                    Sau khi vào giao diện quản lý, chọn <span style="color:red">Invocation</span> bên góc menu trái. 
+                                    Điền tên App sau đó ấn <span style="color:red">Save</span> bên góc mennu phải.
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/displayname.png">
+                                </div>
+                                <div class="excerpt">
+                                    Tiếp theo, chọn <span style="color:red">Action</span> bên góc menu trái. 
+                                    Sau đó ấn <span style="color:red">Add your first action</span> .
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/action1.png">
+                                </div>
+                                <br> 
+                                <div class="excerpt">
+                                    chọn <span style="color:red">Custom intent</span> . 
+                                    Sau đó ấn <span style="color:red">Build</span> .
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/action2.png">
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    Một màn hình sẽ được hiện lên là console dialogflow, Ấn vào  <span style="color:red">create</span> để hoàn thành liên kết dialogflow với Google Assistant
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/createdialogflow.png">
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    Sau khi hoàn thành, giao diện dialogflow sẽ được hiển thị :<br>
+                                    <span style="color:red">Default Fallback Intent</span> sẽ trả về câu trả lời cho user khi user nhập vào những thứ mà App chúng ta tạo ra chưa được học.<br>
+                                    <span style="color:red">Default Welcome Intent</span> sẽ trả về lời chào đầu tiên mỗi khi có user đi vào app.
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/dialogflowhome.png">
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    Để thực hiện thêm action cho Google Assistant ta chọn :<br>
+                                    <span style="color:red">Integration </span> ở menu trái. 
+                                    Sau đó ấn 
+                                    <span style="color:red">TEST</span>. 
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/integration.png">
+                                </div>
+                                <br> 
+
+                                 <div class="excerpt">
+                                    Màn hình mới sẽ hiện ra.  <br> 
+                                    Ấn vào
+                                    <span style="color:red">Continue </span> để tiếp tục<br>    
+                                </div>    
+                                <br>
+                                <div class="excerpt">
+                                    <img src="images/integration1.png">
+                                    
+                                    <span>Khi đó nó sẽ kích hoạt action ở Google Assistant và chúng ta có thể vào giao diện test của Google Assistant trên web
+                                    </span>
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    <img src="images/test.png">
+                                </div>
+                                <br> 
+                                <div class="excerpt">
+                                    Để test app Google Assistant, ta phải phân quyền cho một tài khoản google khác với tài khoản đã tạo Google Assistant và dùng một trình duyệt khác để test.
+                                    <br>
+                                    Để phân quyền ta dùng account đã tạo Google Assistant vào link : <a href="https://console.developers.google.com/iam-admin" style="color: blue"> IAM-ADMIN </a>. 
+
+                                    <br>Chọn project GoogleAssistant của bạn mới tạo và open.
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    <img src="images/permission.png">
+                                </div>
+                                <br> 
+
+                                 <div class="excerpt">
+                                    Để thêm quyền cho một tài khoản google khác ta chọn:<br>
+                                    <span style="color:red">add </span> . 
+                                    Sau đó nhập vào Email mới.
+                                    <br>Chọn 
+                                    <span style="color:red">Project -> Viewer -> Save </span>.
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    <img src="images/permission1.png">
+                                </div>
+                                <br> 
+                                <div class="excerpt">
+                                    Mở trình duyệt khác và đăng nhập vào tài khoản google đã được phân quyền.
+                                    <br>
+                                    Vào link : <a href="https://console.actions.google.com" style="color: blue"> Action Google </a>. 
+
+                                    <br>Chọn project GoogleAssistant . Sau đó chọn <span style="color:red">simulator </span>.<br> 
+                                    Ấn <span style="color:red">start testing -> done</span>
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    <img src="images/test1.png">
+                                </div>
+                                <br> 
+                                
+                                <div class="excerpt">
+                                    Ấn vào talk to "Tên Project" hoặc tự nhập vào.<br>
+                                    App Google Assistant của bạn đã được tạo thành công
+                                    <br> 
+                                </div>
+                                <br> 
+
+                                <div class="excerpt">
+                                    <img src="images/test2.png">
+                                </div>
+                                <br> 
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+
+                <div class="clear"></div>
+            </div>
+
+            
+            <div class="clear">
+                Hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS phần 1 đến đây là kết thúc . 
+                <br> Mình sẽ tiếp tục hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS ở phần 2.
+                <br>Cảm ơn các bạn đã theo dõi
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>
