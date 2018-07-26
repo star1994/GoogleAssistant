@@ -445,7 +445,7 @@ body.open .site-content
 
 .featured-post
 {
-    padding-bottom: 105px;
+    padding-bottom: 0px;
 }
 
 .blog-item-holder.featured-post .entry-content .entry-title
