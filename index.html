@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <title>Suppablog - Minimal Blog Html Template</title>
+        <title>Google Assistant</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="Template by Colorlib" />
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
@@ -26,13 +26,79 @@
 
     <body class="home blog">
 
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s" title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <h1 class="site-title">Google Assistant</h1>
+                    <p class="site-description">
+                        Google Assistant
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="index.html" class="current">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="scroll.html">Scroll</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        © 2018 Google Assistant . <br> CRAFTED WITH <i class="fa fa-heart"></i> BY <a href="https://colorlib.com">COLORLIB</a>.
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Suppablog WP">
+                    </a>
+                </div>
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <div class="social-list">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-vimeo"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
         <!-- Home Content -->
         <div id="content" class="site-content">
-            <div style="margin-right: 800px ">
+            <div id="blog-wrapper" style="width: 1500px;">
                 <div class="blog-holder center-relative">
 
 
                     <article id="post-1" class="blog-item-holder featured-post">
+                        
                         <div class="entry-content relative">
                             <div class="content-1170 center-relative">
                                 <div class="cat-links">
@@ -44,7 +110,7 @@
                                 </div>
                                 <div class="entry-date published">JUL 26, 2018</div>
                                 <h2 class="entry-title">
-                                    <a href="single.html">Giao tiếp bằng Google Assistant với một ứng dụng Android - IOS</a>
+                                    <a >Giao tiếp bằng Google Assistant với một ứng dụng Android - IOS</a>
                                 </h2>
                                 <br>
                                 <div class="excerpt">
@@ -114,7 +180,15 @@
                                 </div>
                                 <br> 
 
-                                <div class="excerpt">
+                                
+                            </div>
+                        </div>
+                
+                    </article>
+					<article id="post-2" class="blog-item-holder">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
+							<div class="excerpt">
                                     Sau khi hoàn thành, giao diện dialogflow sẽ được hiển thị :<br>
                                     <span style="color:red">Default Fallback Intent</span> sẽ trả về câu trả lời cho user khi user nhập vào những thứ mà App chúng ta tạo ra chưa được học.<br>
                                     <span style="color:red">Default Welcome Intent</span> sẽ trả về lời chào đầu tiên mỗi khi có user đi vào app.
@@ -138,7 +212,7 @@
                                 <br> 
 
                                  <div class="excerpt">
-                                    Màn hình mới sẽ hiện ra.  <br> 
+                                    Màn hình mới sẽ hiện ra.  
                                     Ấn vào
                                     <span style="color:red">Continue </span> để tiếp tục<br>    
                                 </div>    
@@ -155,6 +229,14 @@
                                     <img src="images/test.PNG">
                                 </div>
                                 <br> 
+							
+							</div>
+						</div>
+						
+					</article>
+					<article id="post-3" class="blog-item-holder">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
                                 <div class="excerpt">
                                     Để test app Google Assistant, ta phải phân quyền cho một tài khoản google khác với tài khoản đã tạo Google Assistant và dùng một trình duyệt khác để test.
                                     <br>
@@ -208,20 +290,29 @@
                                     <img src="images/test2.PNG">
                                 </div>
                                 <br> 
-                                
                             </div>
                         </div>
                     </article>
 
+                    <article id="post-4" class="blog-item-holder">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
+                                <div class="excerpt">
+									Hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS phần 1 đến đây là kết thúc . 
+									<br> Mình sẽ tiếp tục hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS ở phần 2.
+									<br>Cảm ơn các bạn đã theo dõi
+                                </div>
+                            </div>
+                        </div>
+                    </article>
 
+                </div>
+                <div class="clear"></div>
+                <div class="block load-more-holder">LOAD MORE ENTRIES</div>
             </div>
 
             
-            <div class="clear">
-                Hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS phần 1 đến đây là kết thúc . 
-                <br> Mình sẽ tiếp tục hướng dẫn Giao tiếp bằng Google Assistant với một ứng dụng Adnroid - IOS ở phần 2.
-                <br>Cảm ơn các bạn đã theo dõi
-            </div>
+            <div class="clear"></div>
         </div>
 
 

@@ -424,16 +424,21 @@ body.open .site-content
 
 #blog-wrapper
 {
+	width: 1500px;
     width: 50%;
     margin-left: 0;
     float: left;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .blog-holder
 {
-    width: 160%;
     padding-top: 100px;
-    max-width: 1200px;
+    max-width: 1000px;
     padding-bottom: 85px;
 }
 
@@ -445,7 +450,7 @@ body.open .site-content
 
 .featured-post
 {
-    padding-bottom: 0px;
+    padding-bottom: 105px;
 }
 
 .blog-item-holder.featured-post .entry-content .entry-title
